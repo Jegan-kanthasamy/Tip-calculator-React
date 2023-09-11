@@ -7,7 +7,7 @@
 }
 
 .main {
-  background: linear-gradient(243deg, #FF1B6B 2.49%, rgba(69, 202, 255, 0.00) 112.14%);
+  background: linear-gradient(243deg, #085ecf 2.49%, rgba(255, 255, 255, 0.411) 112.14%);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -115,7 +115,7 @@ div h2 {
 }
 
 button {
-  background-color: #BE1D55;
+  background-color: #be1d25;
   width: 145px;
   height: 42px;
   color: #fff;
@@ -124,4 +124,10 @@ button {
   border-radius: 5px;
   font-weight: 600;
   margin-top: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e40f21;
+  box-shadow: 0 0 10px #db0505;
 }
